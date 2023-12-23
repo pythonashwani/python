@@ -1,4 +1,4 @@
-number = 10  
+number = 10
 #print(num) # NameError: name 'num' is not defined.
 print(number)
 
