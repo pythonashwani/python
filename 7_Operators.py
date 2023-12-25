@@ -1,4 +1,5 @@
 # Arithmetic Operators
+'''
 x = 2
 y = 7
 
@@ -106,3 +107,18 @@ print(result)
 
 result = a is not b
 print(result)
+
+'''
+'''
+a = 100
+p = a << 2
+p = a >> 2
+64 32 16 8 4 2 0
+1  1  0  0 1 0 0
+0  0  1  0 0 0 0 = 16
+0  0  1  1 0 0 1 = 24
+
+
+z = 10 + 2 * 3 - 4 / 2 + 1
+print(z)
+'''

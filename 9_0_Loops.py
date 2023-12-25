@@ -11,10 +11,6 @@ VACCINES = ("Moderna", "Pfizer", "Sputnik v", "Covaxin", "AstraZeneca")
 for vac in VACCINES:
     print(f"{vac} vaccine provides Immunization against covid19")
 
-VACCINES = ["Moderna", "Pfizer", "Sputnik v", "Covaxin", "AstraZeneca"]
-
-for vac in VACCINES:
-    print(f"{vac} vaccine provides Immunization against covid19")
 """
 # While Loop
 x = 0

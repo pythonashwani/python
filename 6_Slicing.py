@@ -1,13 +1,13 @@
 planet1="Closest of Sun"
 print(planet1)
 """
-print(planet1[0])
-print(planet1[1])
-print(planet1[2])
+print(planet1[0]) # C
+print(planet1[1]) # l
+print(planet1[2]) # o
 
-print(planet1[-1])
-print(planet1[-2])
-print(planet1[-3])
+print(planet1[-1]) # n
+print(planet1[-2]) # u
+print(planet1[-3]) # S
 
 # Slicing a string, get a substring from a string
 print(planet1[1:4])
@@ -40,7 +40,7 @@ print(devops[2:5][0])
 
 print(devops[2:5][0][5:11])
 print(devops[2:5][0][5:11][-1])
-"""
+
 
 # Dictionary Example
 Skills = {"DevOps": ("AWS", "Jenkins", "Python", "Ansible"), "Development": ["Java", "NodeJS", ".net"]}
@@ -50,3 +50,5 @@ print(Skills["Development"])
 
 print(Skills["DevOps"][-1])
 print(Skills["DevOps"][-1][:3])
+
+"""
