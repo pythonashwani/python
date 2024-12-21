@@ -38,3 +38,4 @@ for i, j, k in os.walk(os.getcwd()):
 
 os.system("Python --version")
 os.system("ls -ltra")
+os.system('echo "hello"')
