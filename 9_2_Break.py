@@ -1,10 +1,10 @@
 import random
 VACCINES = ["Moderna", "Pfizer", "Sputnik v", "Covaxin", "AstraZeneca", "CoronaVac"]
-
+print(VACCINES)
 random.shuffle(VACCINES)
 print(VACCINES)
 
-LUCKY = random.choice(VACCINES)
+LUCKY = "CoronaVac"
 print(LUCKY)
 
 for vac in VACCINES:
@@ -19,3 +19,5 @@ for vac in VACCINES:
     print("Test Failed")
     print("XXXXXXXXXXXX")
     print()
+
+print("Rest of the code.")

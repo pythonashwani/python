@@ -1,6 +1,10 @@
 # python ./10_1_comandLine.py  1 add 3
 # python ./10_1_comandLine.py  9 sub 3
 # python ./10_1_comandLine.py  6 mult 3
+# alias calc="python3 ./10_1_comandLine.py"
+# calc 1 add 3
+# calc 9 sub 3
+# calc 6 mult 3
 import sys
 
 num1 = int(sys.argv[1])
@@ -17,4 +21,4 @@ elif operator == 'mult':
     output = num1 * num2
     print(output)
 else: 
-    print("Please give the correct operator, it is add, sub, multi")
+    print("Please give the correct operator, Any one( add, sub, multi)")

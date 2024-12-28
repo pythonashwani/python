@@ -5,7 +5,6 @@ conditions and different datatypes.
 print("This IT Organization has various skill sets.")
 print("Find out your match.")
 
-print("Enter Capitalised Values: ")
 
 DevOps = ["Jenkins", "Ansible", "Bash", "Python", "Puppet", "Dockers", "Kubernetes", "Terraform"]
 Development = ("Nodejs", "Angularjs", "Java", ".net", "Python")
@@ -24,4 +23,4 @@ elif (usr_skill in cntr_emp1.values()) or (usr_skill in cntr_emp2.values()):
     print(f"We have contract employees with {usr_skill} skill.")
 else:
     print("Skill not found")
-    print("Please check if you have entered value in capitalize or check the spelling.")
+    print("Please check the spelling.")

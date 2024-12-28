@@ -59,23 +59,23 @@ print(c)
 
 # Logical Operators
 
-# and
-# or
-
+# and - must be true
+# or - any one true
+'''
 a = 40
 b = 60
 
 x = 2
 y = 3
-
+print('* ' * 10)
 out = (a < b) or (x > y)
-print(out)
+print(out) # True
 
 out = (a > b) or (x < y)
-print(out)
+print(out) # True
 
 out = (a > b) or (x > y)
-print(out)
+print(out) 
 
 out = (a > b) and (x < y)
 print(out)
@@ -108,17 +108,23 @@ print(result)
 result = a is not b
 print(result)
 
-'''
-'''
+print('#'  * 10)
+
 a = 100
 p = a << 2
+print(p)
 p = a >> 2
-64 32 16 8 4 2 0
-1  1  0  0 1 0 0
-0  0  1  0 0 0 0 = 16
-0  0  1  1 0 0 1 = 24
+print(p)
+'''
+
+256	128	64	32	16	8	4	2	1			
+0	0	1	1	0	0	1	0	0		100	
+1	1	0	0	1	0	0	0	0		100<<2	400(=256+128+16)
+0	0	0	0	1	1	0	0	1		100>>2	25 (=16+8+1)
+
 
 
 z = 10 + 2 * 3 - 4 / 2 + 1
 print(z)
 '''
+
