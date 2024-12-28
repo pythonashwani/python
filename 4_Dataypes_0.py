@@ -15,8 +15,8 @@ print(float_1, float_2)
 print(a, a.imag, a.real)  
 print('---------')
 # String's
-str1 = "\u0061lpha"
-str2 = 3* 'beta'
+str1 = "\u0061lpha" #"alpha"
+str2 = 3* 'beta ' # "beta beta beta " 
 str3 = '''gamma string'''
 str4 = """delta string"""
 print(str1, str2, str3, str4)
@@ -28,13 +28,13 @@ flt1 = 2.0
 first_list = [str1, "DevOps", 47, num1, 1.5]
 
 # Printing a List
-print(first_list)
+print(first_list) # ['alpha', 'DevOps', 47, 123, 1.5]
 
 # Tuple/ Collection of multi datatype, enclosed in round bracket
 first_tuple = (str1, "DevOps", 47, num1, 1.5)
 
 # Printing a tuple
-print(first_tuple)
+print(first_tuple) # ('alpha', 'DevOps', 47, 123, 1.5)
 
 # Dictionary/ Elements in the dictionary are always in pairs(Key:Value), curly brackets.
 first_dictionary = {"Name":"Imran", "Weight":75, "Exercises":["Boxing", "Dancing", "Jogging"]}
@@ -42,9 +42,9 @@ first_dictionary = {"Name":"Imran", "Weight":75, "Exercises":["Boxing", "Dancing
 # Printing a Dictionary
 print(first_dictionary)
 
-print("Variable first_list is a:", type(first_list))
-print("Variable first_tuple is a:", type(first_tuple))
-print("Variable first_dictionary is a:", type(first_dictionary))
+print("Variable first_list is a:", type(first_list)) # <class 'list'>
+print("Variable first_tuple is a:", type(first_tuple)) # <class 'tuple'>
+print("Variable first_dictionary is a:", type(first_dictionary)) # <class 'dict'>
 
 # Boolean
 x = True
@@ -54,5 +54,5 @@ y = False
 print(x)
 print(y)
 
-print("x is a ", type(x))
-print("y is a ", type(y))
+print("x is a ", type(x)) # <class 'bool'>
+print("y is a ", type(y)) # <class 'bool'>
