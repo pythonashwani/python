@@ -7,6 +7,8 @@ keyname = '31_aws_s3_client.py'
 filename= '31_aws_s3_client.py'
 saveFileToLocal = 'downloaded_file.py'
 
+response  = s3.list_buckets()
+print(response)
 # Upload a file to S3
 s3.upload_file(filename, bucketName, keyname)
 
