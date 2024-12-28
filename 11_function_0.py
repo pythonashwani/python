@@ -2,7 +2,7 @@ def greet(name):
     return f"Hello, {name}!"
 
 
-message = greet("Alice")
+message = greet("Guest")
 print(message)
 
 
@@ -24,5 +24,5 @@ def square(num):
     return num ** 2
 
 
-object_ = square(6)
-print("The square of the given number is: ", object_)
+result = square(6)
+print("The square of the given number is: ", result)
