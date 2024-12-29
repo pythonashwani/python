@@ -1,10 +1,14 @@
 # Python code to catch an exception and handle it using try and except code blocks  
 a = ["Python", "Exceptions", "try and except"]  
 try:  
-    #looping through the elements of the array a, choosing a range that goes beyond the length of the array  
-    for i in range( 4 ):  
-        print( "The index and element from the array is", i, a[i] )  
-#if an error occurs in the try block, then except block will be executed by the Python interpreter       
-except:  
+    print(a[0])
+    print(a[1])
+    print(a[2])
+    print(a[3])
+    print("inner end of the code")
+except:
     print ("Index out of range") 
+print("end of the code") 
+print("end of the code") 
+print("end of the code") 
 print("end of the code") 

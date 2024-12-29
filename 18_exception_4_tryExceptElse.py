@@ -1,14 +1,14 @@
 # Python program to show how to use else clause with try and except clauses  
 
-# Defining a function which returns reciprocal of a number  
-def reciprocal( num1 ):  
+# Defining a function which returns divide of a number  
+def divide( num ):  
     try:  
-        reci = 1 / num1  
+        res = 100 / num  
     except ZeroDivisionError:  
         print( "We cannot divide by zero" )  
     else:  
-        print ( reci )  
+        print ( res )  
 # Calling the function and passing values  
-reciprocal( 4 )  
-reciprocal( 0 )  
+divide(4)  
+divide(0)  
 print("end of the code")
