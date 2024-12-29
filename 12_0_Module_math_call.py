@@ -4,6 +4,8 @@ import my_module_math
 print(my_module_math.square(2))
 print(my_module_math.pi)
 
+print('*' * 50)
+
 # access module using alias
 import my_module_math as mt
 

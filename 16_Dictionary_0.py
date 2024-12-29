@@ -2,7 +2,6 @@ employee = {"name": "Johnny", "age": 32, "salary":26000,"company":"Devops"}
 print(type(employee))
 print("printing Employee data .... ")
 print(employee)
-print(type(employee))
 print("Iterate all keys")
 for x in employee:
     print(x)

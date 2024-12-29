@@ -1,7 +1,7 @@
 Days1 = {"Monday","Tuesday","Wednesday","Thursday", "Sunday"}    
 Days2 = {"Friday","Saturday","Sunday"}    
 print(Days1|Days2) #printing the union of the sets     
-print(Days1.union(Days2)) #printing the union of the sets
+print(Days1.union(Days2)) #another way
 
 # Create three sets  
 set1 = {1, 2, 3}  

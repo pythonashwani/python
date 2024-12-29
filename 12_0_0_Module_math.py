@@ -23,11 +23,10 @@ print(pow(2, 3))
 print(floor(3.9))
 print('^' * 50)
 print(dir(math))
-
+print('^' * 50)
 print("math.__file__ attribute:", math.__file__)
 print("math.__doc__ attribute:", math.__doc__)
 print("math.__name__ attribute:", math.__name__)
 print("__file__ attribute:", __file__)
 print("__doc__ attribute:", __doc__)
 print("__name__ attribute:", __name__)
-

@@ -1,4 +1,14 @@
 # Python program to show how to create a tuple    
+tuple = (1, 2, 3, 4, 5, 6)
+print(tuple[0])
+print(tuple[1])
+print(tuple)
+print(type(tuple))
+
+# updating tuple values  : not possible
+#tuple[1] = 100 # TypeError: 'tuple' object does not support item assignment
+print(tuple)
+
 # Creating an empty tuple    
 empty_tuple = ()    
 print("Empty tuple: ", empty_tuple)    
