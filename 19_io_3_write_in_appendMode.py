@@ -1,3 +1,4 @@
+# append : add at the end of the file
 #open the file.txt in write mode.    
 fileptr = open("file2.txt","a")  
 #overwriting the content of the file    
