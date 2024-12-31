@@ -2,7 +2,7 @@
 import subprocess
 
 # result = subprocess.run(["ls -ltra"], shell=True, capture_output=True, text=True)
-result = subprocess.run(["python", "50_os_0_cwd1.py"], capture_output=True, text=True, check=False)
+result = subprocess.run(["python", "20_os_0_cwd"], capture_output=True, text=True, check=False)
 
 print(result.stdout)
 print(result.stderr)
