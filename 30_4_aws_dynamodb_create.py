@@ -36,4 +36,9 @@ table = dynamodb.create_table(
 table.wait_until_exists()
 
 # Print out some data about the table.
-print(table.item_count)
+print('Table name:', table.table_name)
+print('Table ARN:', table.table_arn)
+print('Table status:', table.table_status)
+print('Table item count:', table.item_count)
+print('Table key schema:', table.key_schema)
+print('Table attribute definitions:', table.attribute_definitions)
